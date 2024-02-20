@@ -1,0 +1,51 @@
+h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 3.0em;
+    color:blueviolet;
+    position: absolute;
+    left:30%;
+    top:0%;
+
+}
+h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 2.0em;
+    color:blueviolet;
+    position: absolute;
+    top: 8%;
+    left:35%;
+}
+
+#location{
+    width: 5%;
+    height: 5%;
+
+  }
+  #phone{
+    width: 5%;
+    height: 5%;
+
+  }
+  #mail{
+    width: 5%;
+    height: 5%;
+
+  }
+img {
+    width: 20%;
+    height: auto;
+}
+  .table1{
+    border-collapse: collapse;
+    border-color:1px solid black;
+}
+
+body{
+    background-color:floralwhite;
+}
+
+  
+
+
