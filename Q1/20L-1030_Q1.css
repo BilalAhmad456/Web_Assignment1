@@ -25,6 +25,15 @@ h3{
   color:blueviolet;
   border-bottom: 1px solid grey;
   
+
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  height: 100px; 
 }
 
 .container {
@@ -39,8 +48,8 @@ h3{
 .divider {
   width: 1px;
   background-color:#ccc;
-  height: 600px; /* Adjust height as needed */
-  margin: 0 50px; /* Adjust margin as needed */
+  height: 600px; 
+  margin: 0 50px; 
 }
 
 h4{
@@ -52,9 +61,9 @@ h4{
 
 }
 .section1 {
-  border-top: 1px solid #ccc; /* Divider line */
-  margin-top: 20px; /* Spacing above the divider */
-  margin-bottom: 20px; /* Spacing below the divider */
+  border-top: 1px solid #ccc; 
+  margin-top: 20px; 
+  margin-bottom: 20px; 
 }
 
 #location{
@@ -76,9 +85,9 @@ h4{
     width: 20%;
     height: auto;
     display: inline-block;
-    border: 4px solid blueviolet; /* Border color */
-    border-radius: 10px; /* Rounded corners */
-    overflow: hidden; /* Clip overflowing content */
+    border: 4px solid blueviolet; 
+    border-radius: 10px; 
+    overflow: hidden; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
   .table1{
@@ -89,6 +98,24 @@ h4{
 body{
     background-color:floralwhite;
 }
+
+.image1{
+  position:absolute;
+  top: 20%;
+  left:35%;
+}
+.image2{
+  position:absolute;
+  top: 30%;
+  left:35%;
+}
+
+.image3{
+  position:absolute;
+  top: 40%;
+  left:35%;
+}
+
 
   
 
