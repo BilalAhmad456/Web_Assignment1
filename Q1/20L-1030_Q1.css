@@ -12,10 +12,49 @@ h2{
     font-family: 'Lato', sans-serif;
     font-weight: 900;
     font-size: 2.0em;
-    color:blueviolet;
+    color:gray;
     position: absolute;
     top: 8%;
     left:35%;
+}
+
+h3{
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 1.5em;
+  color:blueviolet;
+  border-bottom: 1px solid grey;
+  
+}
+
+.container {
+  display: flex;
+  
+}
+
+.left, .right {
+  flex: 1;
+}
+
+.divider {
+  width: 1px;
+  background-color:#ccc;
+  height: 600px; /* Adjust height as needed */
+  margin: 0 50px; /* Adjust margin as needed */
+}
+
+h4{
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 1.3em;
+  color:blueviolet;
+  border-bottom: 1px solid black;
+
+}
+.section1 {
+  border-top: 1px solid #ccc; /* Divider line */
+  margin-top: 20px; /* Spacing above the divider */
+  margin-bottom: 20px; /* Spacing below the divider */
 }
 
 #location{
@@ -33,9 +72,14 @@ h2{
     height: 5%;
 
   }
-img {
+#Profile {
     width: 20%;
     height: auto;
+    display: inline-block;
+    border: 4px solid blueviolet; /* Border color */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Clip overflowing content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
   .table1{
     border-collapse: collapse;
