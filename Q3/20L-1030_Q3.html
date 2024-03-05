@@ -26,24 +26,36 @@
                         <h2>1.1 Personal Information:</h2>
                         <label for="full_name">Full Name:</label>
                         <input name="full_name" type="text" class="form-control" id="full_name" required>
-                    </div>
+                    
     
-                    <div class="form-group">
                         <label for="phone_number">Phone Number:</label>
                         <input name="tel_num" type="tel" class="form-control" id="pnumber" required>
-                    </div>
+                        
     
-                    <div class="form-group">
                         <label for="email_address">Email Address:</label>
                         <input name="email" type="email" class="form-control" id="email_address" required>
-                    </div>
-    
-                    <div class="form-group">
-                        <label for="address">Address:</label>
-                        <input name="address" type="text" class="form-control" id="address" required>
-                    </div>
-                    <!--
 
+                        <label for="street">Street:</label>
+                        <input name="street" type="text" class="form-control" id="street" required>
+
+                        <label for="city">City:</label>
+                        <input name="city" type="text" class="form-control" id="city" required>
+
+                        <label for="state">State:</label>
+                        <input name="state" type="text" class="form-control" id="state" required>
+
+                        <label for="zip">ZIP Code:</label>
+                        <input name="zip" type="text" class="form-control" id="zip" required>
+
+                    
+    
+                    
+                        
+                    </div>
+                    
+                  
+                   
+                    
                     <div class="form-group">
                         <h2>1.2 Resume and Cover Letter:</h2>
                         <label for="resume">Upload Resume:</label>
@@ -59,7 +71,11 @@
                     <div class ="form-group">
                         <h2>1.3 Education:</h2>
                         <label for="highest_educations"> Highest Level of Education Obtained:</label>
-                        <input type="text" name="highest_education" id="highest_education"  required><br>
+                        <select id="highest_education" name="highest_education" required> 
+                        <option value="BS">Bachelor</option>
+                        <option value="MS">Masters</option>
+                        <option value="PHD">PHD</option>
+                        </select> <br>
 
                         <label for="University_name"> University Name:</label>
                         <input type="text" name="uni_name" id="uni_name" required><br>
@@ -94,9 +110,10 @@
                         <label for="skills"> Relevant Skills:</label> <br>
                         <textarea name ="relevant_skills" id="skills"  rows="4" cols="50" required></textarea> <br>
                         <label for="certs"> Certifications:</label> <br>
-                        <textarea name="certs" id="skills"  rows="4" cols="50" required></textarea><br>
+                        <textarea name="certs" id="certs"  rows="4" cols="50" required></textarea><br>
                     </div>
-
+                    
+                      
     
                     <div class="form-group">
                         <h2>1.6 Availability:</h2>
@@ -104,8 +121,18 @@
                         <label for="start_Date">Start Date:</label><br>
                         <input name="start_date" type="date" class="form-control" id="start_date" required><br>
     
-                        <label for="certs">Certifications:</label><br>
-                        <textarea name="certs" id="skills" class="form-control" rows="4" required></textarea>
+                        <label for="Work_Schedule">Preferred Work Schedule</label><br>
+
+                        <label for="Work_Schedule">Start Time</label><br>
+                        <input name="start_time" type="time" class="form-control" id="schedule" required><br>
+                        <label for="Work_Schedule"> End Time</label><br>
+                        <input name="end_time" type="time" class="form-control" id="schedule" required><br>
+                        <label for="relocate">Willingness to Relocate:</label>
+                        <select id="relocate" name="relocate" required>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                        </select>
+
                     </div>
 
 
@@ -133,8 +160,10 @@
                         <textarea id="ques1" name="ques1" class="form-control" rows="4" required></textarea>
                     </div>
 
-                    -->
+                  
 
+                    
+           
                     
     
                     <div class="form-group">

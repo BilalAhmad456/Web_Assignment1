@@ -116,6 +116,8 @@
     .tablediv {
         flex: 1;
         float: right;
+        
+       
         padding: 20px;
         width: 50%;
         height: 50%;
